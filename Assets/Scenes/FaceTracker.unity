@@ -338,7 +338,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 299138278}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2077229172}
+        m_TargetAssemblyTypeName: FaceSwap, Assembly-CSharp
+        m_MethodName: SwitchFace
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &299138278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,8 +612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
@@ -972,6 +984,7 @@ GameObject:
   - component: {fileID: 2077229170}
   - component: {fileID: 2077229169}
   - component: {fileID: 2077229171}
+  - component: {fileID: 2077229172}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -1026,6 +1039,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_FacePrefab: {fileID: 8350070430329068263, guid: 32d5d7d5b84434e5b957222430e7387a, type: 3}
   m_MaximumFaceCount: 1
+--- !u!114 &2077229172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077229168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7115f962ff6594295a8bbdcdef3ec3fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faceMaterials:
+  - {fileID: 2100000, guid: d62a64dd4800c4d9fbf6ddf5efc72f1c, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
