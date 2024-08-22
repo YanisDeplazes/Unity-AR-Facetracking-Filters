@@ -1054,6 +1054,7 @@ MonoBehaviour:
   faceMaterials:
   - {fileID: 2100000, guid: afcd42e7e39304af6959b4dcc7100c6f, type: 2}
   - {fileID: 2100000, guid: 3546bed70e30347629f8646ad2a933de, type: 2}
+  - {fileID: 2100000, guid: b21b3ea9aed5642618d3a8e332945af4, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
