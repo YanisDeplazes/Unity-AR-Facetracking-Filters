@@ -4,8 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FaceTracker.unity
+    guid: 477d4ecfb267a4d70baa01a2089ddc10
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 73d5265867ba1459c8500fa1985bcf22, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 9c7a11712ae634332a3bf9c854d67a37, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2cd7934ad387340a09d27c3f7c63edb5, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 234e164b96466495f954c83346f6c30d, type: 2}
